@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class ReggieApplication {
     public static void main(String[] args) {
-        System.out.println("fjjj");
+
         SpringApplication.run(ReggieApplication.class,args);
         log.info("项目启动成功！");
 
